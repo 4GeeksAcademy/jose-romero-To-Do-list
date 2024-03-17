@@ -79,6 +79,10 @@ const actualizar = () =>{
   };
 
     useEffect(() => {
+      informacion();
+    })
+
+    useEffect(() => {
       crearUsuario();
     })
 
